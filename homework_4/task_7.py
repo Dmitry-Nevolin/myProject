@@ -7,7 +7,7 @@
 def count(figure):
     current = 1
     factorial = 1
-    while current != figure:
+    while current != figure + 1:
         factorial = factorial * current
         yield factorial
         current += 1
